@@ -58,6 +58,7 @@ function valid(board){
 
     var solveButton = $('#solve-button');
     var clearButton = $('#clear-button');
+    var board = $('#sudoku-board');
 
     solveButton.on('click', solveSudoku);
     clearButton.on('click', clearBoard);
