@@ -1,1 +1,66 @@
+body {
+  background-color: #f0f4c3; /* Light green background */
+}
 
+#container {
+  text-align: center;
+}
+
+.head {
+  font-size: 5.6rem;
+  font-family: italic;
+  color: #2c3e50; /* Dark blue text */
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+colgroup,
+tbody {
+  border: solid medium #34495e; /* Dark grey borders */
+}
+
+td {
+  border: solid thin #7f8c8d; /* Light grey cell borders */
+  height: 1.4em;
+  width: 1.4em;
+  text-align: center;
+  padding: 0;
+  color: #2c3e50; /* Dark blue text */
+  background-color: #ecf0f1; /* Light grey background */
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 15px;
+  font-size: 1.5em;
+  background-color: #2980b9; /* Blue background */
+  color: white;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  color: #2980b9; /* Blue text */
+  background-color: #ecf0f1; /* Light grey background */
+}
+
+td:hover {
+  color: white;
+  background-color: #2980b9; /* Blue background on hover */
+}
+
+.red {
+  background-color: #e74c3c; /* Red background */
+}
